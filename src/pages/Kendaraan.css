@@ -1,0 +1,124 @@
+
+.kendaraan-page {
+  width: 100%;
+}
+
+.kendaraan-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 24px;
+}
+
+.kendaraan-header h2 {
+  margin: 0 0 8px;
+  color: #1e293b;
+  font-size: 24px;
+}
+
+.kendaraan-header p {
+  margin: 0;
+  color: #64748b;
+  font-size: 14px;
+}
+
+.add-button {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  padding: 11px 16px;
+  border: none;
+  border-radius: 8px;
+  background-color: #2563eb;
+  color: white;
+  cursor: pointer;
+}
+
+.add-button:hover {
+  background-color: #1d4ed8;
+}
+
+.kendaraan-table-container {
+  background-color: white;
+  padding: 24px;
+  border-radius: 12px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);
+  overflow-x: auto;
+}
+
+.table-toolbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.table-toolbar h3 {
+  margin: 0;
+  color: #1e293b;
+}
+
+.search-box {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  padding: 10px 12px;
+  border: 1px solid #e2e8f0;
+  border-radius: 8px;
+  color: #64748b;
+}
+
+.search-box input {
+  border: none;
+  outline: none;
+  font-size: 14px;
+}
+
+.kendaraan-table {
+  width: 100%;
+  border-collapse: collapse;
+  text-align: left;
+}
+
+.kendaraan-table th,
+.kendaraan-table td {
+  padding: 14px 12px;
+  border-bottom: 1px solid #e2e8f0;
+  font-size: 14px;
+}
+
+.kendaraan-table th {
+  background-color: #f8fafc;
+  color: #475569;
+}
+
+.kendaraan-table td {
+  color: #334155;
+}
+
+.status {
+  padding: 6px 10px;
+  border-radius: 20px;
+  font-size: 12px;
+  font-weight: 600;
+}
+
+.status.parkir {
+  background-color: #dbeafe;
+  color: #1d4ed8;
+}
+
+.status.selesai {
+  background-color: #dcfce7;
+  color: #15803d;
+}
+
+@media (max-width: 600px) {
+  .kendaraan-header,
+  .table-toolbar {
+    align-items: flex-start;
+    flex-direction: column;
+    gap: 16px;
+  }
+}
+

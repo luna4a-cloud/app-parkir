@@ -1,0 +1,32 @@
+
+.petugas-dashboard {
+  padding: 30px;
+  font-family: Arial, sans-serif;
+  background-color: #f1f5f9;
+  min-height: 100vh;
+}
+
+.petugas-dashboard h1 {
+  color: #1e3a8a;
+  margin-bottom: 10px;
+}
+
+.petugas-dashboard p {
+  color: #64748b;
+  margin-bottom: 25px;
+}
+
+.petugas-menu {
+  background: white;
+  padding: 25px;
+  border-radius: 12px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.08);
+}
+
+.petugas-menu li {
+  padding: 14px;
+  margin-bottom: 10px;
+  background: #eff6ff;
+  border-radius: 8px;
+  color: #334155;
+}

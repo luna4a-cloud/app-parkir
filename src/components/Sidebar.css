@@ -1,0 +1,93 @@
+.sidebar {
+  width: 240px;
+  min-height: 100vh;
+  background-color: #1e293b;
+  color: white;
+  padding: 24px 16px;
+  box-sizing: border-box;
+}
+
+.sidebar h2 {
+  margin: 0 0 8px;
+  font-size: 24px;
+}
+
+.sidebar-role {
+  color: #94a3b8;
+  font-size: 12px;
+  margin-bottom: 32px;
+}
+
+.sidebar nav {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.sidebar nav a {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  padding: 12px;
+  color: #cbd5e1;
+  text-decoration: none;
+  border-radius: 8px;
+}
+
+.sidebar nav a:hover {
+  background-color: #334155;
+  color: white;
+}
+
+.logout-button {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  margin-top: 32px;
+  padding: 12px;
+  width: 100%;
+  border: none;
+  border-radius: 8px;
+  background-color: #dc2626;
+  color: white;
+  cursor: pointer;
+}
+
+/* Logo Sidebar */
+.sidebar h2 {
+  letter-spacing: 0.5px;
+}
+
+/* Jarak menu */
+.sidebar nav {
+  margin-top: 20px;
+}
+
+/* Menu aktif */
+.sidebar nav a.active {
+  background-color: #2563eb;
+  color: white;
+}
+
+/* Efek hover */
+.sidebar nav a:hover {
+  background-color: #334155;
+  color: white;
+  transition: 0.2s;
+}
+
+/* Tombol logout */
+.logout-button {
+  margin-top: auto;
+  transition: 0.2s;
+}
+
+.logout-button:hover {
+  background-color: #b91c1c;
+}
+
+/* Sidebar layout */
+.sidebar {
+  display: flex;
+  flex-direction: column;
+}
